@@ -57,3 +57,4 @@ gem 'friendly_id'
 
 gem 'devise', '~> 4.7'
 gem 'pry'
+gem 'ostruct'
