@@ -17,6 +17,17 @@
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
+
+            <%= video_tag(
+              'ocean1.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'comp.jpeg'
+              )
+              %>
+
             <%= render "shared/application_nav", location: 'top' %>
 
             <%= yield %>

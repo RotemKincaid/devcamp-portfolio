@@ -24,3 +24,5 @@
 
 #ignore my secrets file
 /config/secrect.yml
+.env
+
