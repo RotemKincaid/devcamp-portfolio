@@ -164,6 +164,7 @@
     text-align: center;
     background-color: #f9f9f9;
     border-top: .05rem solid #e5e5e5;
+    margin-top: 20px;
   }
   .blog-footer p:last-child {
     margin-bottom: 0;
@@ -175,4 +176,18 @@
 
   .social-links li a {
     font-size: 2em;
+  }
+
+  .comment-card > .card {
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .comment-attribution {
+    font-size: .8em;
+    font-style: italic;
+  }
+
+  .comment-name {
+    font-weight: 700;
   }
