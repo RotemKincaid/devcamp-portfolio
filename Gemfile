@@ -54,7 +54,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'friendly_id'
-
 gem 'devise', '~> 4.7'
 gem 'pry'
 gem 'ostruct'
@@ -70,3 +69,4 @@ gem 'carrierwave-aws', '~> 1.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'gritter', '~> 1.2'
+gem 'redis', '~> 4.1', '>= 4.1.2'
