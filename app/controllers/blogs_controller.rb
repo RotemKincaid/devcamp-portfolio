@@ -74,8 +74,6 @@ class BlogsController < ApplicationController
   end
 
   def toggle_status
-   
-
     if @blog.draft?
       @blog.published!
     elsif @blog.published?
@@ -92,6 +90,6 @@ class BlogsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id)
     end
 end
