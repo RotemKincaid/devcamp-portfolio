@@ -7,6 +7,8 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+
     <%= favicon_link_tag 'favicons/favicon.ico' %>
     
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -21,7 +23,7 @@
         <div class="cover-container">
 
             <%= video_tag(
-              'ocean1.mp4',
+              'flowers-wind.mp4',
               id: 'background',
               autoplay: true,
               loop: true,
