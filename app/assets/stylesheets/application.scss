@@ -209,3 +209,21 @@ body {
 .app-footer {
   color: white;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+
+.app-card-container a {
+  color: teal;
+}
